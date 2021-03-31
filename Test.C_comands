@@ -1,0 +1,3 @@
+vim exercise.java
+javac exersice.java
+java exersice
