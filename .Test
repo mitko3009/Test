@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int r  = Integer.parseInt(scanner.nextLine());
+        int h  = Integer.parseInt(scanner.nextLine());
+
+        System.out.println("V = " + Math.PI * Math.pow(r,2) * h);
+        System.out.println("S = " + Math.PI * 2 * r * h);
+    }
+}
