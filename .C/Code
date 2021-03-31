@@ -1,0 +1,22 @@
+#include <stdio.h>
+#define PI 3.14
+
+int main()
+{
+    double b;
+    double h;
+    double r;
+    double v;
+    
+    scanf("%lf",&r);
+    scanf("%lf",&h);
+    
+    b = 2 * PI * r * h;
+    v = PI * r * r * h;
+    
+    
+    printf("V = %lf \n" , v);
+    printf("B = %lf \n" , b);
+
+    return 0;
+}
